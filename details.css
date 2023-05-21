@@ -29,6 +29,7 @@ section.details {
 section.image > img {
   width: 480px;
   height: 320px;
+  object-fit: cover;
   box-shadow: 0 0 4px 0 var(--shadow-color);
 }
 .info {
