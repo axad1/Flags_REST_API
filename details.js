@@ -1,7 +1,6 @@
 const query = new URLSearchParams(location.search).get("country");
 
 function renderDetails([country]) {
-  console.log(country);
   const flag = document.getElementById("flag");
   const countryName = document.getElementById("country_name");
   const borderCountries = document.getElementById("borders");
