@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Details</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav>
+        <h2>
+          <a href="/"> Where in the world? </a>
+        </h2>
+        <button type="button" id="toggleTheme">
+          <i class="fa-regular fa-moon"></i>
+          Dark Mode
+        </button>
+      </nav>
+    </div>
+    <header>
+      <button id="back-btn" onClick="history.back()">
+        <i class="fa-solid fa-arrow-left-long"></i>&nbsp; Back
+      </button>
+    </header>
+    <main>
+      <section class="image">
+        <img src="#" alt="image" id="flag" />
+      </section>
+      <section class="details">
+        <h2 id="country_name"></h2>
+        <div class="info">
+          <section>
+            <h4>
+              Native Name:
+              <span id="native_name"></span>
+            </h4>
+            <h4>
+              Population:
+              <span id="population"></span>
+            </h4>
+            <h4>
+              Region:
+              <span id="region"></span>
+            </h4>
+            <h4>
+              Sub Region:
+              <span id="sub_region"></span>
+            </h4>
+            <h4>
+              Capital:
+              <span id="capital"></span>
+            </h4>
+          </section>
+          <section>
+            <h4>
+              Top Level Domain:
+              <span id="top_domain"></span>
+            </h4>
+            <h4>
+              Currency:
+              <span id="currency"></span>
+            </h4>
+            <h4>
+              Languages:
+              <span id="languages"></span>
+            </h4>
+          </section>
+        </div>
+        <div id="borders">
+          <h4>Border Countries:</h4>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="common.js"></script>
+    <script src="details.js"></script>
+  </body>
+</html>
