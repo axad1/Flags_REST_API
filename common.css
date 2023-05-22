@@ -7,7 +7,7 @@
   --bg-color: hsl(0, 0%, 98%);
   --elements-bg-color: white;
   --shadow-color: rgba(0, 0, 0, 0.1);
-  --max-width: 1304px;
+  --max-width: 1360px;
   --width: 280px;
   --h-padding: 3rem;
   --gap: 3rem;
@@ -37,7 +37,6 @@ nav {
   max-width: var(--max-width);
   margin: auto;
   display: flex;
-  text-align: center;
   align-items: center;
   justify-content: space-between;
   padding-inline: var(--h-padding);

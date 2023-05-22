@@ -36,7 +36,7 @@ main {
 }
 .container {
   max-width: var(--max-width);
-  padding-block: 0 var(--h-padding);
+  padding-block-end: var(--h-padding);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(var(--width), auto));
   gap: var(--gap);
