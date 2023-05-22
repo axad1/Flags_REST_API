@@ -45,7 +45,7 @@ main {
   place-content: space-between;
 }
 a.card {
-  height: 410px;
+  height: 390px;
   background-color: var(--elements-bg-color);
   border-radius: 0.5rem;
   overflow: hidden;
@@ -54,7 +54,7 @@ a.card {
 }
 .card img {
   width: var(--width);
-  height: 50%;
+  height: 48%;
   box-sizing: border-box;
   border-bottom: thin solid var(--shadow-color);
 }
